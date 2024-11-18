@@ -1,5 +1,5 @@
 public class StringConcantenation{
-    public static String concatenatedStrings{String str1, String str2}{
+    public static String concatenatedStrings(String str1, String str2){
         int len1 = str1.length();
         int len2 = str2.length();
 
@@ -24,7 +24,7 @@ public class StringConcantenation{
         String str2 = "Beron";
 
         String concatenatedString = concatenatedStrings(str1, str2);
-        System.out.println("Concatenated String: " + concatenatedString):
+        System.out.println("Concatenated String: " + concatenatedString);
         
 
     }
